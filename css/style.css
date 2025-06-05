@@ -16,8 +16,6 @@ img {
 }
 
 .container {
-  align-self: center;
-  justify-self: center;
   margin: auto;
   text-align: center;
 }

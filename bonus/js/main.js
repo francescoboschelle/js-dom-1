@@ -11,7 +11,7 @@ btn.addEventListener("click", function () {
     image.alt = "Lamp off";
     body.style.backgroundColor = "black";
     btn.style.color = "white";
-    btn.innerHTML = "Spegni";
+    btn.innerHTML = "Accendi";
 
     lampStatus = false;
   } else {
@@ -19,7 +19,7 @@ btn.addEventListener("click", function () {
     image.alt = "Lamp on";
     body.style.backgroundColor = "white";
     btn.style.color = "black";
-    btn.innerHTML = "Accendi";
+    btn.innerHTML = "Spegni";
 
     lampStatus = true;
   }

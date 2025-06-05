@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  align-self: center;
+  justify-self: center;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  background-color: #ffffff00;
+  cursor: pointer;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+}
